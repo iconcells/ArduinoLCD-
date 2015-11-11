@@ -53,7 +53,7 @@ void loop()
     // Print the temperature to the serial console.
     Serial.println(temperature);
 
-    // Change background color
+    // Change background color 
     if (F > 68){
       lcd.setRGB(colorR, colorG, colorB);
     } else if (F > 61 ){
