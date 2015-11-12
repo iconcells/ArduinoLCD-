@@ -33,7 +33,7 @@ void setup()
     lcd.setRGB(colorR, colorG, colorB);
     
     // Print a message to the LCD.
-    lcd.print("Good day !!");
+    lcd.print("Good day Master!");
 
     delay(1000);
 }
